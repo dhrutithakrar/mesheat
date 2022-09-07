@@ -1,0 +1,49 @@
+.nav{
+font-family: 'Qwitcher Grypen', cursive;
+font-size: 3rem;
+
+}
+.image{
+    margin: 0 -45%;
+}
+
+.Nav{
+    padding: 0 15%;
+}
+.box{
+    margin-top: 20%;
+    position: relative;
+    height: 490px;
+    width: 500px;
+    left:34% ; 
+    border-radius: 5%;
+    scroll-behavior: smooth;   
+}
+.box1{
+    margin: 5%;
+    background-color: #f3e9e3;
+    font-family: 'Qwitcher Grypen', cursive;
+    border-radius: 5%;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+.box1:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.text1{
+    margin-left: 5% ;
+    font-size: 2rem;
+    color: black;
+}
+.text1:hover{
+    color:#256333 ;
+    cursor: grab;
+}
+
+@media only screen and(max-width: 676px) {
+    .box{
+        top: 50%;
+         }
+}

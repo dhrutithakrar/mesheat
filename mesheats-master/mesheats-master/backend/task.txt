@@ -1,0 +1,4 @@
+forgot password
+reset password
+remove subscription
+update subscription
